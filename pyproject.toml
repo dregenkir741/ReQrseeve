@@ -5,7 +5,7 @@ description = "превращаю поток мыслей в оптимизир�
 authors = [
     {name = "dregenkir",email = "dregenkir741@mail.ru"}
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
     "pydantic (>=2.13.4,<3.0.0)",
     "sqlalchemy (>=2.0.49,<3.0.0)",
@@ -17,3 +17,10 @@ dependencies = [
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "reqrseeve"
+version = "0.1.0"
+description = "..."
+authors = ["..."]
+package-mode = false
