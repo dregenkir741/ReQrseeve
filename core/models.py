@@ -16,7 +16,7 @@ class Plan(BaseModel):
     tasks: list[ExtractedTask]
     current_context: str
     suggested_order: list[str]
-    rationaly: str | None = None
+    rationale: str | None = None
 
 if __name__ == "__main__":
     thought = RawThought(content="Хочу выучить Python и сходить в магазин")
