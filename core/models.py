@@ -9,7 +9,7 @@ class RawThought(BaseModel):
 class ExtractedTask(BaseModel):
     id: str = Field(default_factory=lambda: uuid4().hex)
     title: str
-    context_hints: list[str]
+    context_hints: list[str] = []
     parent_thought_id: str | None = None
 
 class Plan(BaseModel):
